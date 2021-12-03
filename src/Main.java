@@ -3,9 +3,14 @@ public class Main {
         DecemberOfCode december2021 = new DecemberOfCode();
 
         int resultDay1 = december2021.DecemberFirst();
-        System.out.println(resultDay1);
+        System.out.println("Day 1: " + resultDay1);
 
         int resultDay1P2 = december2021.DecemberFirstPart2();
-        System.out.println(resultDay1P2);
+        System.out.println("Day 1: " + resultDay1P2);
+
+        DecemberSecond day2 = new DecemberSecond();
+
+        int resultDay2P1 = day2.DecemberSecondPart1();
+        System.out.println("Day 2: "+resultDay2P1);
     }
 }

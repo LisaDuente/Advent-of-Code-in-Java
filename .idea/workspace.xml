@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79e13ae1-b852-4a72-8021-7c96fa4b59f7" name="Changes" comment="First day of advent of code" />
+    <list default="true" id="79e13ae1-b852-4a72-8021-7c96fa4b59f7" name="Changes" comment="First day of advent of code">
+      <change afterPath="$PROJECT_DIR$/Test/DecemberSecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/TestFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecemberSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecemberSecond.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode" />
@@ -56,9 +62,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecemberSecondTest.shouldComputeRightDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
+      <option name="METHOD_NAME" value="shouldComputeRightDepth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecemberSecondTest.shouldComputeRightHorizontal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
+      <option name="METHOD_NAME" value="shouldComputeRightHorizontal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecemberSecondTest.shouldComputeTheRightAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
+      <option name="METHOD_NAME" value="shouldComputeTheRightAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecemberSecondTest.shouldCountFaults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
+      <option name="METHOD_NAME" value="shouldCountFaults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DecemberSecondTest.shouldCountFaults" />
+        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeRightHorizontal" />
+        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeRightDepth" />
+        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeTheRightAnswer" />
       </list>
     </recent_temporary>
   </component>
