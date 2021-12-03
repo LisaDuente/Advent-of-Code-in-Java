@@ -12,5 +12,9 @@ public class Main {
 
         int resultDay2P1 = day2.DecemberSecondPart1();
         System.out.println("Day 2: "+resultDay2P1);
+
+        day2 = new DecemberSecond();
+        int resultDay2P2 = day2.DecemberSecondPart2();
+        System.out.println("Day 2: "+resultDay2P2);
     }
 }
