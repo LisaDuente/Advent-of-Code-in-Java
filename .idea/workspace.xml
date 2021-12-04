@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79e13ae1-b852-4a72-8021-7c96fa4b59f7" name="Changes" comment="Second day of advent of code">
+    <list default="true" id="79e13ae1-b852-4a72-8021-7c96fa4b59f7" name="Changes" comment="Second day of advent of code part 2">
+      <change afterPath="$PROJECT_DIR$/Test/DecemberThirdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/TestThird.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecemberThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecemberThird.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/DecemberSecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DecemberSecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecemberSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecemberSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testing-Course" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +54,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.DecemberThirdTest.shouldCountForEachIndexInLine">
+    <configuration name="DecemberThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecemberThird" />
+      <module name="AdventOfCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode" />
@@ -61,41 +69,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecemberSecondTest.shouldComputeRightAim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecemberThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
-      <option name="METHOD_NAME" value="shouldComputeRightAim" />
+      <option name="MAIN_CLASS_NAME" value="DecemberThirdTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecemberThirdTest.shouldCountForEachIndexInLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecemberThirdTest" />
+      <option name="METHOD_NAME" value="shouldCountForEachIndexInLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecemberSecondTest.shouldComputeRightDepth2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecemberThirdTest.shouldNotCountFaultsForEachIndexInLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
-      <option name="METHOD_NAME" value="shouldComputeRightDepth2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecemberSecondTest.shouldComputeRightHorizontal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
-      <option name="METHOD_NAME" value="shouldComputeRightHorizontal2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecemberSecondTest.shouldCountFaults2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DecemberSecondTest" />
-      <option name="METHOD_NAME" value="shouldCountFaults2" />
+      <option name="MAIN_CLASS_NAME" value="DecemberThirdTest" />
+      <option name="METHOD_NAME" value="shouldNotCountFaultsForEachIndexInLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DecemberThirdTest.shouldCountForEachIndexInLine" />
+        <item itemvalue="JUnit.DecemberThirdTest.shouldNotCountFaultsForEachIndexInLine" />
+        <item itemvalue="Application.DecemberThird" />
+        <item itemvalue="JUnit.DecemberThirdTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeRightAim" />
-        <item itemvalue="JUnit.DecemberSecondTest.shouldCountFaults2" />
-        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeRightHorizontal2" />
-        <item itemvalue="JUnit.DecemberSecondTest.shouldComputeRightDepth2" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638519119786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second day of advent of code part 2">
+      <created>1638521176645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638521176645</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First day of advent of code" />
     <MESSAGE value="Second day of advent of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second day of advent of code" />
+    <MESSAGE value="Second day of advent of code part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second day of advent of code part 2" />
   </component>
 </project>
